@@ -4,7 +4,7 @@
 
 This is the official website for **Prototypolab**, a modern software studio that bridges the gap between ambitious ideas and market-ready solutions. The website showcases our services, technology expertise, and company values through a sleek, modern interface.
 
-**Live URL**: https://lovable.dev/projects/66f6dca5-00f3-42e4-bf89-a36010a2d7ff
+**Live URL**: https://prototypolab.com
 
 ## About Prototypolab
 
