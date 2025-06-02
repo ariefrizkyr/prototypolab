@@ -2,7 +2,7 @@
 export const TechStack = () => {
   const technologies = [
     { name: "Next.js", category: "Frontend Framework" },
-    { name: "React", category: "UI Library" },
+    { name: "Shadcn", category: "UI Library" },
     { name: "TypeScript", category: "Programming Language" },
     { name: "Supabase", category: "Backend Platform" },
     { name: "Tailwind CSS", category: "Styling" },
@@ -11,8 +11,8 @@ export const TechStack = () => {
     { name: "PostgreSQL", category: "Database" },
     { name: "Prisma", category: "ORM" },
     { name: "Stripe", category: "Payments" },
-    { name: "Docker", category: "Containerization" },
-    { name: "AWS", category: "Cloud Services" }
+    { name: "Jira", category: "Project Management" },
+    { name: "Figma", category: "Design" }
   ];
 
   return (
@@ -26,11 +26,11 @@ export const TechStack = () => {
           </p>
         </div>
         
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 place-items-center">
           {technologies.map((tech, index) => (
             <div 
               key={index}
-              className="bg-white rounded-xl p-6 border-2 border-gray-100 hover:border-black transition-all duration-300 hover:shadow-lg hover:-translate-y-1 group"
+              className="bg-white rounded-xl p-6 border-2 border-gray-100 hover:border-black transition-all duration-300 hover:shadow-lg hover:-translate-y-1 group w-full max-w-[250px]"
             >
               <div className="text-center">
                 <h3 className="font-bold text-lg mb-2 group-hover:text-black transition-colors">

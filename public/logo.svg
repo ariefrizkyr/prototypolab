@@ -1,0 +1,20 @@
+<svg width="320" height="90" viewBox="0 0 320 90" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Prototypolab Logo">
+  <rect width="320" height="90" fill="transparent" />
+  
+  <!-- 3D Lego brick tilted, scaled down slightly -->
+  <g transform="translate(15,18) scale(0.85)">
+    <!-- Brick base shape with perspective -->
+    <path d="M0 20 L60 0 L90 20 L30 40 Z" fill="black"/>
+    
+    <!-- Brick front -->
+    <path d="M0 20 L30 40 L30 70 L0 50 Z" fill="#222"/>
+    
+    <!-- Brick top -->
+    <path d="M60 0 L90 20 L90 50 L60 30 Z" fill="#111"/>
+  </g>
+
+  <!-- Company name with Montserrat, tighter letter spacing -->
+  <text x="100" y="62" font-family="Montserrat, sans-serif" font-weight="700" font-size="36" fill="black" letter-spacing="0">
+    Prototypolab
+  </text>
+</svg>
